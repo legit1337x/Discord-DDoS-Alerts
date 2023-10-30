@@ -21,7 +21,7 @@ clear
  		msg_content=\"Dumping" "$pkt" "PPS\" ## Sends The Msg About It Being Hit 		msg_content=\"Dumping" "$pktT" "Megabytes\" ## Sends The Msg About It Being Hit
 
  		
- 		url='https://discord.com/api/webhooks/PUT UR OWN WEBHOOK' ## Insert Discord Webhook Here
+ 		url='https://discordapp.com/api/webhooks/1165396796856614943/Yz0TuN3T7fGqtEKKENnNGf0yEs5A-DGyRXTA5-J7tZixT67GCpbkhYBDEGSAjDlpCrbY' ## Insert Discord Webhook Here
  		
  		curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_content}" $url ## Shows How Much Power Being Put Through
  	tcpdump -n -s0 -c 2000 -w $dumpdir/dump.`date +"%Y%m%d-%H%M%S"`.cap ## Dumps All Invalid Connected IP's And Forced Connections
